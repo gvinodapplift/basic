@@ -5,9 +5,9 @@ do
 	do
 		if [ $i == $j ]
 		then
-			echo -n "($i,$j)  "
+			echo -n "*  "
 		else
-			echo -n "         "
+			echo -n "   "
 		fi
 	done 
 	echo
